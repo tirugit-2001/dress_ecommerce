@@ -5,7 +5,7 @@
   "main": "src/server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "pm2 start src/server.js --name printeasy-backend",
+    "start": "node src/server.js",
     "dev": "nodemon src/server.js",
     "stop": "pm2 stop printeasy-backend",
     "vercel-build": "echo 'Build step completed'"
