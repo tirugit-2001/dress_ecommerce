@@ -1,0 +1,12 @@
+require("dotenv").config();
+
+module.exports = {
+  RAZORPAY_KEY_ID: process.env.RAZORPAY_KEY_ID,
+  RAZORPAY_KEY_SECRET: process.env.RAZORPAY_KEY_SECRET,
+  DTDC_API_KEY: process.env.DTDC_API_KEY,
+  PORT: process.env.PORT || 3000,
+  SHIPROCKET_EMAIL: process.env.SHIPROCKET_EMAIL,
+  SHIPROCKET_PASSWORD: process.env.SHIPROCKET_PASSWORD,
+  WA_BOT_API_KEY: process.env.WA_BOT_API_KEY,
+  FIREBASE_SERVICE_ACCOUNT_BASE64: process.env.FIREBASE_SERVICE_ACCOUNT_BASE64,
+};
